@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин комплектуючих ПК</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .product-cards {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+        .product-card img {
+            max-width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">PC Store</div>
+        <input type="text" placeholder="Пошук комплектуючих...">
+        <button>🔍</button>
+        <button>Аккаунт</button>
+        <button>🛒</button>
+    </header>
+
+    <main>
+        <section class="categories">
+            <h2>Категорії комплектуючих</h2>
+            <div class="category-section">
+                <h3>Відеокарти</h3>
+                <div class="product-cards">
+                    <div class="product-card">
+                        <a href="rtx4070.html"><img src="https://i.moyo.ua/img/products/5971/55_4000.jpg?1724055267" alt="GPU 1"></a>
+                        <p>RTX 4070</p>
+                    </div>
+                    <div class="product-card">
+                        <a href="rtx4080.html"><img src="https://a.allegroimg.com/s1200/115fac/a3e7bfdc48958d49976f5ad1398b/Karta-graficzna-GeForce-RTX-4080-16GB-EAGLE-GDDR6X" alt="GPU 2"></a>
+                        <p>RTX 4080</p>
+                    </div>
+                    <div class="product-card">
+                        <a href="rx7900xt.html"><img src="https://luxelectro.com.ua/images/stories/virtuemart/product/gigabyte/GV-R79XTGAMING-OC-20.jpg" alt="GPU 3"></a>
+                        <p>RX 7900 XT</p>
+                    </div>
+                </div>
+            </div>
+            <div class="category-section">
+                <h3>Процесори</h3>
+                <div class="product-cards">
+                    <div class="product-card">
+                        <a href="i713700k.html"><img src="https://compx.ua/image/cache/catalog/products/64/e57077d1-d474-11ed-8f8e-001b21ea407b-1400x1400.jpg" alt="CPU 1"></a>
+                        <p>Intel i7-13700K</p>
+                    </div>
+                    <div class="product-card">
+                        <a href="ryzen97950x.html"><img src="https://artline.ua/storage/images/products/13305/gallery/162267/600_gallery_1684935946502161_0.webp" alt="CPU 2"></a>
+                        <p>AMD Ryzen 9 7950X</p>
+                    </div>
+                    <div class="product-card">
+                        <a href="i513600k.html"><img src="https://serverparts.com.ua/image/cache/catalog/content/CPU/Iintel%20Core%20(i3,i5,i7,i9)/i5-13600-700x700.png" alt="CPU 3"></a>
+                        <p>Intel i5-13600K</p>
+                    </div>
+                </div>
+            </div>
+            <div class="category-section">
+                <h3>Оперативна памʼять</h3>
+                <div class="product-cards">
+                    <div class="product-card">
+                        <a href="kingstonfury32gb.html"><img src="https://artline.ua/storage/images/products/24982/gallery/263511/600_gallery_1716978331650361_0.webp" alt="RAM 1"></a>
+                        <p>Kingston Fury 32GB</p>
+                    </div>
+                    <div class="product-card">
+                        <a href="corsairvengeance16gb.html"><img src="https://img.telemart.ua/51109-156363-product_popup/corsair-ddr4-16gb-2x8gb-3200mhz-vengeance-lpx-black-cmk16gx4m2b3200c16.jpg" alt="RAM 2"></a>
+                        <p>Corsair Vengeance 16GB</p>
+                    </div>
+                    <div class="product-card">
+                        <a href="gskilltridentz64gb.html"><img src="https://img.telemart.ua/627666-775417-product_popup/gskill-ddr4-64gb-2x32gb-3600mhz-trident-z-rgb-black-f4-3600c18d-64gtzr.jpg" alt="RAM 3"></a>
+                        <p>G.Skill Trident Z 64GB</p>
+                    </div>
+                </div>
+            </div>
+            <div class="category-section">
+                <h3>Материнські плати</h3>
+                <div class="product-cards">
+                    <div class="product-card">
+                        <a href="asustufgamingb550.html"><img src="https://content2.rozetka.com.ua/goods/images/original/471584486.png" alt="Mobo 1"></a>
+                        <p>ASUS TUF Gaming B550</p>
+                    </div>
+                    <div class="product-card">
+                        <a href="msimagz790.html"><img src="https://storage-asset.msi.com/global/picture/image/feature/mb/Z790/mag_z790_tomahawk_wifi/kv-pd.png" alt="Mobo 2"></a>
+                        <p>MSI MAG Z790</p>
+                    </div>
+                    <div class="product-card">
+                        <a href="gigabyteaorusx570.html"><img src="https://content.rozetka.com.ua/goods/images/original/15653147.jpg" alt="Mobo 3"></a>
+                        <p>Gigabyte AORUS X570</p>
+                    </div>
+                </div>
+            </div>
+            <div class="category-section">
+                <h3>Блоки живлення</h3>
+                <div class="product-cards">
+                    <div class="product-card">
+                        <a href="corsairrm750x.html"><img src="https://a.allegroimg.com/s1080/1180cf/1d16c9f14b9282ed6a2ac2334c28/ZASILACZ-CORSAIR-RM750X-750W-80-GOLD-MODULARNY" alt="PSU 1"></a>
+                        <p>Corsair RM750x</p>
+                    </div>
+                    <div class="product-card">
+                        <a href="evgasupernova850w.html"><img src="https://s.ek.ua/jpg_zoom1/2092186.jpg" alt="PSU 2"></a>
+                        <p>EVGA SuperNOVA 850W</p>
+                    </div>
+                    <div class="product-card">
+                        <a href="seasonicfocusgx1000.html"><img src="https://img.telemart.ua/712403-880283-product_popup/seasonic-focus-v4-gx-1000w-atx-31-srp-fgx102-a5a32sf.jpg" alt="PSU 3"></a>
+                        <p>Seasonic Focus GX-1000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="category-section">
+                <h3>Системи охолодження</h3>
+                <div class="product-cards">
+                    <div class="product-card">
+                        <a href="noctuanhd15.html"><img src="https://content.rozetka.com.ua/goods/images/big/10617625.jpg" alt="Cooler 1"></a>
+                        <p>Noctua NH-D15</p>
+                    </div>
+                    <div class="product-card">
+                        <a href="corsairicueh150i.html"><img src="https://artline.ua/storage/images/products/21805/gallery/237187/600_gallery_1708535043703814_0.webp" alt="Cooler 2"></a>
+                        <p>Corsair iCUE H150i</p>
+                    </div>
+                    <div class="product-card">
+                        <a href="deepcoolak620.html"><img src="https://img.telemart.ua/385457-537432-product_popup/deepcool-ak620.jpg" alt="Cooler 3"></a>
+                        <p>Deepcool AK620</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Магазин комплектуючих ПК. Всі права захищені.</p>
+        <div class="social-icons">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+        <div class="footer-links">
+            <a href="#">Контакти</a>
+            <a href="#">Умови використання</a>
+            <a href="#">Політика конфіденційності</a>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
